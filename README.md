@@ -40,4 +40,7 @@ p : 4 ( up to 4 feature matrices can be selected )
 
 Datasets and parts of preprocessing code were taken from [Geom-GCN](https://github.com/graphdml-uiuc-jlu/geom-gcn) and [GCNII](https://github.com/chennnM/GCNII) repositories. We thank the authors of these papers for sharing their code.
 
+**Implementation for large graph datasets**
+
+Implementation of our model for large graph datasets from LINKX paper are available at [this](https://github.com/sunilkmaurya/DualNetGNN_large) repository.
 
