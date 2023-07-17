@@ -1,5 +1,14 @@
 # Dual-Net GNN
-Implementation of Dual-Net GNN.
+
+Paper links: [Short paper](https://dl.acm.org/doi/10.1145/3511808.3557543) | [Full paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.12166)
+
+Implementation for small graph datasets: this repo
+
+Implementation for LINKX large graph datasets : [repo](https://github.com/sunilkmaurya/DualNetGNN_large)
+
+
+## Implementation details
+
 Experiments were conducted with following setup:  
 Pytorch: 1.6.0  
 Python: 3.8.5  
@@ -40,7 +49,4 @@ p : 4 ( up to 4 feature matrices can be selected )
 
 Datasets and parts of preprocessing code were taken from [Geom-GCN](https://github.com/graphdml-uiuc-jlu/geom-gcn) and [GCNII](https://github.com/chennnM/GCNII) repositories. We thank the authors of these papers for sharing their code.
 
-**Implementation for large graph datasets**
-
-Implementation of our model for large graph datasets from LINKX paper are available at [this](https://github.com/sunilkmaurya/DualNetGNN_large) repository.
 
